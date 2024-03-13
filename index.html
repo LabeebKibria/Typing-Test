@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Speed Typing</title>
+</head>
+<body>
+    <!-- Intro Page -->
+    <div id="introPage" class="intro-page">
+        <h1>Welcome to Speed Typing!</h1>
+        <button id="startButton">Start Game</button>
+    </div>
+
+    <!-- Game Page -->
+    <div id="gamePage" class="game-page hidden">
+        <div class="timer" id="timer"></div>
+        <div class="container">
+            <div class="quote-display" id="quoteDisplay"></div>
+            <!--Autofocus means the cursor will be at the designated spot-->
+            <textarea id="quoteInput" class="quote-input" autofocus></textarea>
+            <div id="wordCount">Word Count: <span id="wordCountValue">0</span></div>
+        </div>
+    </div>
+</body>
+</html>
